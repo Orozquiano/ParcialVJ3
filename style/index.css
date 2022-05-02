@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://as01.epimg.net/meristation/imagenes/2013/02/11/noticia/1360578360_431445_1532616471_portada_normal.jpg");
+    background-image: url("/IMG/fondo.png");
     background-attachment: fixed;
     max-width: 2000px;
     min-height: 900px;
