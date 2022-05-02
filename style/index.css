@@ -5,33 +5,46 @@
 }
 body{
     background-image: url("/IMG/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    max-width: 2000px;
-    min-height: 900px;
 }
+/* 
+#page{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+  }
 
 .Titulo{
     width: 100vw;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
     margin-bottom: 10vh;
 }
-.Titulo img{
-    width: 30vw;
-    height: auto;
-}
+.Titulo h1{
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: beige;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    font-size: 50px;
+} */
 
-.Info{
-    width: 98vw;
+/* .Info{
+    width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-#presskit{
+/* #presskit{
     right: 312px;
     top: 440px;
     width: 288px;
@@ -59,7 +72,7 @@ body{
     position: absolute;
     margin-right: 20px;
     margin-bottom: 80px;
-    background-image: url(/IMG/icon_instagram.png);
-}
+    background-image: url(/IMG/logoinsta.png);
+} */
 
 
