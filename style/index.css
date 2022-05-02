@@ -3,3 +3,63 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background-image: url("https://as01.epimg.net/meristation/imagenes/2013/02/11/noticia/1360578360_431445_1532616471_portada_normal.jpg");
+    background-attachment: fixed;
+    max-width: 2000px;
+    min-height: 900px;
+}
+
+.Titulo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+.Titulo img{
+    width: 30vw;
+    height: auto;
+}
+
+.Info{
+    width: 98vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#presskit{
+    right: 312px;
+    top: 440px;
+    width: 288px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+
+}
+.boton{
+    position: absolute;
+    height: 71px;
+    display: inline-block;
+    width: 164px;
+    background: url(http://x10interactive.com/static/somanyme/presskit-button.png);
+
+    
+}
+.ImgInsta{
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    background-image: url(/IMG/icon_instagram.png);
+}
+
+
