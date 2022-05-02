@@ -69,6 +69,31 @@ p {
     clear: both;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 30px;
     height: 30px;
     border-top: 1px #ddd solid;
+}
+h2 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 18px;
+    color: #444;
+    padding-top: 12px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+#contact, #credits {
+    float: left;
+    width: 360px;
+}
+#images img.preview {
+    min-width: 355px;
+    min-height: 255px;
+    max-width: 550px;
+    max-height: 460px;
 }
