@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    width: 100%;
+    min-width: 960px;
+    line-height: 1.6em;
+    display: block;
+    margin: 20px;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+#navigation {
+    position: fixed;
+    width: 240px;
+    height: 100%;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#navigation ul {
+    margin-left: 0;
+    padding-left: 0;
+    left: 0;
+    list-style: none inside none;
+}
+#content {
+    position: relative;
+    left: 240px;
+    float: left;
+    width: 720px;
+    height: 100%;
+}
+img#header {
+    width: 720px;
+    max-height: 240px;
+    margin-bottom: 32px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#factsheet {
+    float: left;
+    width: 240px;
+    height: 100%;
+}
+#right-of-factsheet {
+    float: left;
+    width: 480px;
+}
+.clear {
+    clear: both;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    border-top: 1px #ddd solid;
+}
+h2 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 18px;
+    color: #444;
+    padding-top: 12px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+#contact, #credits {
+    float: left;
+    width: 360px;
+}
+#images img.preview {
+    min-width: 355px;
+    min-height: 255px;
+    max-width: 550px;
+    max-height: 460px;
+}
+#logo img {
+    max-width: 720px;
+}
+#osas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 200px;
+
+}
+#osas img{
+    width: 100%;
+    height: 100%;
+}
+#media-download {
+    border: 1px #999 solid;
+    color: #666;
+    line-height: 32px;
+    border-radius: 2px;
+    width: 720px;
+    height: 32px;
+    text-align: center;
+    background-color: #ddd;
+    margin-bottom: 12px;
+    
+}
+a{
+    text-decoration: none;
+}
